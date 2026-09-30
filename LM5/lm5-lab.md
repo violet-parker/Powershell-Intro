@@ -16,3 +16,4 @@ Name             ResourceGroupName        Type
 
 Violet-Parker-VM POWERSHELL-INTRO-VIOLET1 Microsoft.Compute/virtualMachines
 
+$AZVM = Get-AzVM | Select-Object Name, ResourceGroupName, Type
