@@ -27,3 +27,12 @@ Name             ResourceGroupName        PowerState
 
 Violet-Parker-VM POWERSHELL-INTRO-VIOLET1 VM running  
 
+Task 9
+
+AI Used: Chat GPT
+
+Prompt used: as listed in the word document, + the script
+
+Suggestion received: include the Resource Group Name into the results
+
+Do I think it was a good idea to implement it: Yes, I was actually thinking of doing that before but was trying to follow the steps to the assignment directly. 
