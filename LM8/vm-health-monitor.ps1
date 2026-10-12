@@ -10,5 +10,13 @@ foreach ($vm in $vms) {
     }
 }
 
+foreach ($vm in $vms) {
+    if ($vm.PowerState -ne "VM running") {
+        Write-Host "VM Name: $($vm.Name)"
+        Write-Host ""
+        Write-Host "This VM Needs Attention."
+    }
+}
+
 $vms
 
