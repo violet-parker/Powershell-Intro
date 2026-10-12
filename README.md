@@ -4,4 +4,6 @@ I have learned how to import a github file and push a file to the github directo
 
 I have learned how to check the properties of a command. with Get-Member. 
 
-I have learneed how to make pipeline commands, and I used this information to make a VM report script. 
+I have learned how to make pipeline commands, and I used this information to make a VM report script. 
+
+I have learned how to use logic and loops in my scripting, and made the vm-health-monitor script using it. 
