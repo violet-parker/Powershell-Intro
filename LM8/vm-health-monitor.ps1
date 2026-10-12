@@ -11,7 +11,7 @@ Write-Host "=== VM Healthy Results ==="
 foreach ($vm in $vms) {
     if ($vm.PowerState -eq "VM running") {
         Write-Host "VM Name: $($vm.Name)"
-        Write-Host "Resource Group: $(vm.ResourceGroupName)"
+        Write-Host "Resource Group: $($vm.ResourceGroupName)"
         Write-Host "Status: Healthy."
     }
 }
@@ -23,7 +23,7 @@ Write-Host "=== VM Needs Attention Results ==="
 foreach ($vm in $vms) {
     if ($vm.PowerState -ne "VM running") {
         Write-Host "VM Name: $($vm.Name)"
-        Write-Host "Resource Group: $(vm.ResourceGroupName)"
+        Write-Host "Resource Group: $($vm.ResourceGroupName)"
         Write-Host "Status: Needs Attention."
     }
 }
